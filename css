@@ -1,0 +1,40 @@
+/*
+This file styles the webpage to improve user experience
+*/
+
+/* Body styling */
+body {
+background-color: #0b1f3a; /* Dark blue background */
+color: white; /* White text */
+font-family: Arial, sans-serif; /* Clean font */
+text-align: center; /* Center everything */
+}
+
+/* Container styling */
+.container {
+margin-top: 50px;
+}
+
+/* Image styling */
+.main-image {
+width: 300px;
+border-radius: 15px; /* Rounded edges */
+margin: 20px 0;
+}
+
+/* Button styling */
+button {
+padding: 10px 20px;
+margin: 10px;
+border: none;
+border-radius: 10px;
+background-color: #1e90ff;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+background-color: #63b3ff;
+}
