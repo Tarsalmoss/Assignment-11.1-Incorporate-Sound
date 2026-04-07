@@ -1,40 +1,62 @@
 /*
-This file styles the webpage to improve user experience
+Space-themed styling for a better user experience
 */
 
 /* Body styling */
 body {
-background-color: #0b1f3a; /* Dark blue background */
-color: white; /* White text */
-font-family: Arial, sans-serif; /* Clean font */
-text-align: center; /* Center everything */
+margin: 0;
+padding: 0;
+background: radial-gradient(circle, #020111, #000000); /* Space gradient */
+color: #ffffff;
+font-family: 'Trebuchet MS', sans-serif;
+text-align: center;
 }
 
-/* Container styling */
+/* Container layout */
 .container {
 margin-top: 50px;
 }
 
-/* Image styling */
-.main-image {
-width: 300px;
-border-radius: 15px; /* Rounded edges */
-margin: 20px 0;
+/* Title styling */
+h1 {
+font-size: 40px;
+text-shadow: 0 0 15px #00ccff; /* Glow effect */
 }
 
-/* Button styling */
+/* Paragraph styling */
+p {
+font-size: 18px;
+color: #bbbbbb;
+}
+
+/* Image styling */
+.main-image {
+width: 350px;
+border-radius: 20px;
+margin: 20px 0;
+box-shadow: 0 0 25px rgba(0, 204, 255, 0.7); /* Glow border */
+}
+
+/* Button container */
+.controls {
+margin-top: 20px;
+}
+
+/* Buttons */
 button {
-padding: 10px 20px;
+padding: 12px 25px;
 margin: 10px;
 border: none;
-border-radius: 10px;
-background-color: #1e90ff;
+border-radius: 12px;
+background: linear-gradient(45deg, #0077ff, #00ccff);
 color: white;
 font-size: 16px;
 cursor: pointer;
+transition: 0.3s;
 }
 
-/* Button hover effect */
+/* Hover effect */
 button:hover {
-background-color: #63b3ff;
+transform: scale(1.1);
+background: linear-gradient(45deg, #00ccff, #0077ff);
 }
