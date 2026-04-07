@@ -1,23 +1,24 @@
 /*
-This JavaScript file controls sound playback
-No JavaScript is written inside the HTML file (requirement)
+This file controls background space sound
+All JavaScript is kept outside HTML (requirement)
 */
 
-// Create a new audio object
+// Create audio object
 const sound = new Audio("sound.mp3");
 
-// Get play button from HTML
-const playButton = document.getElementById("playBtn");
+// Make sound loop continuously
+sound.loop = true;
 
-// Get pause button from HTML
+// Get buttons
+const playButton = document.getElementById("playBtn");
 const pauseButton = document.getElementById("pauseBtn");
 
-// Add event listener to play button
+// Play sound when clicked
 playButton.addEventListener("click", function () {
-sound.play(); // Play sound
+sound.play();
 });
 
-// Add event listener to pause button
+// Pause sound when clicked
 pauseButton.addEventListener("click", function () {
-sound.pause(); // Pause sound
+sound.pause();
 });
